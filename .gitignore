@@ -1,0 +1,9 @@
+/out/
+.idea_modules/
+overlays
+target/
+.idea
+*.iml
+/resources/
+/node_modules/
+node_modules/
