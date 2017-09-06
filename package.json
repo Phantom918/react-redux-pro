@@ -1,0 +1,41 @@
+{
+  "name": "ComPro",
+  "version": "1.0.0",
+  "description": "first project",
+  "main": "index.js",
+  "author": "tanlei",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack",
+    "exlainThisUp": "自定义命令,start比较特殊,使用npm start即可,其他命令使用npm run 命令",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server --open --progress --colors",
+    "build": "webpack --config ./webpack.production.config.js --progress"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss-loader": "^2.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-transform-hmr": "^1.0.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2"
+  }
+}
